@@ -1,0 +1,53 @@
+
+.nav{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    overflow: auto;
+    max-width: 90%;   
+}
+.nav li{
+    width: 40%;
+    background-color: rgb(160, 149, 230);
+    border: 100%;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+.nav li a{
+    font: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.nav li a:hover{
+    background-color: rgba(226, 34, 34, 0.6);
+}
+
+#home{
+    font-size: larger;
+    font-style: oblique;
+    color: rgb(4, 60, 42);
+}
+#pic{
+    height: 200px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+#name1{
+    margin-left: 50px;
+    margin-right: 70px;
+}
+#pic2{
+    height: 200px;
+    border-radius: 50px;
+}
+#non{
+    display: flex;
+    
+}
+#name{
+    display: flex;
+}
